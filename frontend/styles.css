@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #ffffff;
+    background: radial-gradient(circle at center, #190f68 0%, #3427c2 100%);
     color: #1f2937;
 }
 
@@ -73,4 +73,54 @@ header {
 
 .sign-in-btn:hover {
     background: #4545c5;
+}
+/* HERO SECTION */
+
+.hero {
+    min-height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 0 10%;
+}
+
+.hero-tag {
+    color: #5b5bd6;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    max-width: 900px;
+    margin-bottom: 30px;
+}
+
+.hero-description {
+    max-width: 750px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.hero-btn {
+    margin-top: 35px;
+    text-decoration: none;
+    background: #5b5bd6;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.hero-btn:hover {
+    background: #4444c2;
+    transform: translateY(-3px);
 }
