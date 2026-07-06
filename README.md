@@ -31,6 +31,6 @@ Lumina is an AI-powered learning platform that teaches like a real tutor. Instea
 
 To make high-quality STEM education accessible through AI that teaches students how to think, not just how to find answers.
 
-## License
+## Authors 
 
-This project is licensed under the MIT License.
+Team Obizi
