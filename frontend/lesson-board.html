@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Board</title>
+    <link rel="stylesheet" href="css/landing-board.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="back-link">&larr; Back to Lumina</a>
+        <div class="lesson-title">
+            <div class="subject-icon">&pi;</div>
+            <div>
+                <span class="eyebrow">MATHEMATICS</span>
+                <h1>Solving quadratic equations using factoring, completing the square &amp; quadratic formula.</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <!-- Progress -->
+            <section class="card">
+                <div class="card-header">
+                    <h3>Lesson Progress</h3>
+                    <span class="percent">81%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <p class="step-label">Step 5 of 8</p>
+            </section>
+
+            <!-- Time -->
+            <section class="card">
+                <div class="card-header">
+                    <h3>Time Spent</h3>
+                    <svg class="time-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <path d="M12 7v5l3 3"></path>
+                    </svg>
+                </div>
+                <p class="time">24:18</p>
+                <span class="today-label">Today</span>
+            </section>
+
+            <!-- Course Plan -->
+            <section class="card">
+                <div class="card-header">
+                    <h3>Course Plan</h3>
+                </div>
+                <ul class="course-list">
+                    <li>
+                        <details class="course-item">
+                            <summary>
+                                Understanding Algebra
+                                <span class="summary-right">
+                                    <span class="count">0/4</span>
+                                    <span class="chevron"></span>
+                                </span>
+                            </summary>
+                            <ul class="sub-lessons">
+                                <li>Variables &amp; expressions</li>
+                                <li>Order of operations</li>
+                                <li>Simplifying terms</li>
+                                <li>Practice set</li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details class="course-item">
+                            <summary>
+                                Linear Equations
+                                <span class="summary-right">
+                                    <span class="count">0/4</span>
+                                    <span class="chevron"></span>
+                                </span>
+                            </summary>
+                            <ul class="sub-lessons">
+                                <li>One-step equations</li>
+                                <li>Two-step equations</li>
+                                <li>Graphing lines</li>
+                                <li>Practice set</li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details class="course-item" open>
+                            <summary>
+                                Quadratic Equations
+                                <span class="summary-right">
+                                    <span class="count">3/4</span>
+                                    <span class="chevron"></span>
+                                </span>
+                            </summary>
+                            <ul class="sub-lessons">
+                                <li>Factoring</li>
+                                <li>Completing the square</li>
+                                <li>Quadratic formula</li>
+                                <li>Practice set</li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details class="course-item">
+                            <summary>
+                                Functions
+                                <span class="summary-right">
+                                    <span class="count">0/4</span>
+                                    <span class="chevron"></span>
+                                </span>
+                            </summary>
+                            <ul class="sub-lessons">
+                                <li>Function notation</li>
+                                <li>Domain &amp; range</li>
+                                <li>Composite functions</li>
+                                <li>Practice set</li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details class="course-item">
+                            <summary>
+                                Graphs
+                                <span class="summary-right">
+                                    <span class="count">0/4</span>
+                                    <span class="chevron"></span>
+                                </span>
+                            </summary>
+                            <ul class="sub-lessons">
+                                <li>Plotting points</li>
+                                <li>Reading graphs</li>
+                                <li>Transformations</li>
+                                <li>Practice set</li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- Lesson Board -->
+        <section class="lesson-board">
+            <div class="tabs-wrapper">
+                <input type="radio" name="board-tabs" id="tab-board" checked>
+                <input type="radio" name="board-tabs" id="tab-notes">
+
+                <div class="tabs">
+                    <label for="tab-board">Lesson Board</label>
+                    <label for="tab-notes">Notes</label>
+                </div>
+
+                <div class="panes">
+                    <div class="pane pane-board">
+                        <div class="chat-area">
+                            <div class="message">
+                                <svg class="sparkle" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l1.6 5.4L19 9l-5.4 1.6L12 16l-1.6-5.4L5 9l5.4-1.6z"></path>
+                                    <path d="M19 14l0.7 2.3L22 17l-2.3 0.7L19 20l-0.7-2.3L16 17l2.3-0.7z"></path>
+                                </svg>
+                                <h3>Let&rsquo;s continue learning</h3>
+                                <p>
+                                    Lumina will explain your subject concepts, work through problems,
+                                    show solutions here. Raise your hand to ask or interrupt the
+                                    session for clarification.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bottom-controls">
+                            <div class="question-box">
+                                <input type="text" placeholder="Ask a question....">
+                                <button class="raise-btn">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M8 13V6a2 2 0 0 1 4 0v5"></path>
+                                        <path d="M12 11V4a2 2 0 0 1 4 0v7"></path>
+                                        <path d="M16 11.5V6a2 2 0 0 1 4 0v9a6 6 0 0 1-6 6h-2a6 6 0 0 1-5-2.7L4 13a2 2 0 0 1 3-2.6l1 1"></path>
+                                    </svg>
+                                    Raise Hand
+                                </button>
+                            </div>
+                            <div class="pacing">
+                                <span>PACING</span>
+                                <input type="radio" name="pacing" id="pace-slow" checked>
+                                <label for="pace-slow">Slow</label>
+                                <input type="radio" name="pacing" id="pace-normal">
+                                <label for="pace-normal">Normal</label>
+                                <input type="radio" name="pacing" id="pace-fast">
+                                <label for="pace-fast">Fast</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pane pane-notes">
+                        <div class="notes-pane-inner">
+                            <textarea placeholder="Jot down notes for this lesson..."></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
