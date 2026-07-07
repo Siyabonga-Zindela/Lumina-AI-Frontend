@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lumina</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -23,79 +23,207 @@
     </header>
     <main>
       <section class="hero">
-          <p class="hero-tag">
-              Live AI Tutoring - Not Videos, Not Chatbots
-          </p>
+        <div class="left-hero">
+          <p class="hero-tag">Live AI Tutoring - Not Videos, Not Chatbots</p>
           <h1>
             Learn with an AI Teacher
-            <br>
+            <br />
             that explains concepts
-            <br>
+            <br />
             in real time
           </h1>
           <p class="hero-description">
-            Lumina teaches like a real tutor—explaining concepts step by step,
+            Lumina teaches like a real tutor, explaining concepts step by step,
             answering questions instantly, and adapting lessons to your pace and
             understanding.
           </p>
           <p class="hero-description">
-            No prerecorded videos. No endless scrolling through solutions.
-            Just learning that responds to you.
+            No prerecorded videos. No endless scrolling through solutions. Just
+            learning that responds to you.
           </p>
-          <a href="#" class="hero-btn">
-            Start Learning
-          </a>
-        </section>
+        </div>
+        <div class="right-hero">
+          <img src="frontend\assets\hero-img.png" alt="" srcset="" />
+        </div>
+
+        <a href="#" class="hero-btn"> Start Learning </a>
+      </section>
       <section class="features">
         <h2>Why Students Love Lumina</h2>
-        <p class="section-description">
-          Built different, by design.
-        </p>
+        <p class="section-description">Built different, by design.</p>
         <div class="features-container">
           <div class="feature-card">
             <h3>Real-Time AI Teaching</h3>
             <p>
-            Lessons are delivered live, adapting to your pace and
-            responding as you learn.
+              Lessons are delivered live, adapting to your pace and responding
+              as you learn.
             </p>
           </div>
           <div class="feature-card">
             <h3>Understands You</h3>
             <p>
-              Lumina identifies gaps in your understanding and adjusts
-              lessons before you even realize you're stuck.
+              Lumina identifies gaps in your understanding and adjusts lessons
+              before you even realize you're stuck.
             </p>
           </div>
           <div class="feature-card">
             <h3>Built for STEM</h3>
             <p>
-                Covers Mathematics, Physics and Engineering from
-                beginner to advanced levels.
+              Covers Mathematics, Physics and Engineering from beginner to
+              advanced levels.
             </p>
           </div>
           <div class="feature-card">
             <h3>Interrupt Naturally</h3>
             <p>
-              Ask questions at any time without losing your place
-              in the lesson.
+              Ask questions at any time without losing your place in the lesson.
             </p>
           </div>
           <div class="feature-card">
             <h3>Personalised Path</h3>
             <p>
-              Every learner receives a unique roadmap based on
-              their understanding.
+              Every learner receives a unique roadmap based on their
+              understanding.
             </p>
           </div>
           <div class="feature-card">
             <h3>Infinite Patience</h3>
             <p>
-              Lumina explains difficult concepts as many times as
-              necessary until you understand.
+              Lumina explains difficult concepts as many times as necessary
+              until you understand.
             </p>
           </div>
         </div>
       </section>
+
+      <!--HOW IT WORKS-->
+      <section class="how-it-works">
+        <h4>HOW IT WORKS</h4>
+        <h2>Four steps to understanding</h2>
+        <div class="how-it-works-items">
+          <div class="how-it-works-circle"><p>01</p></div>
+          <div class="how-it-works-circle"><p>02</p></div>
+          <div class="how-it-works-circle"><p>03</p></div>
+          <div class="how-it-works-circle"><p>04</p></div>
+        </div>
+        <div class="how-it-works-inner-wrapper">
+          <div class="how-it-work-left">
+            <ul>
+              <li><span class="red-text">WHAT LUMINA IS NOT</span></li>
+              <li>A lesson generator</li>
+              <li>A homework solver</li>
+              <li>A traditional chatbot</li>
+              <li>A prerecorded course</li>
+            </ul>
+          </div>
+          <div class="how-it-work-right">
+            <ul>
+              <li><span class="blue-text">WHAT LUMINA IS NOT</span></li>
+              <li>A real-time AI teacher</li>
+              <li>A structured interactive lesson</li>
+              <li>A personilized learning journey</li>
+              <li>A Classroom + private tutor + online access</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--SUBJECTS-->
+      <section class="subjects">
+        <h3>SUBJECTS</h3>
+        <h2>STEM at every level</h2>
+        <br />
+        <br />
+        <ul class="subject-cards">
+          <li>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADu0lEQVR4nO2YXYhVVRTHd5qpfWJRYaHgSxE+RE5BD8I86MxZ686MgXl7CYQIBquRUAn13rVmR1ARBBF9QBQ99FLNQw+VgszQnLX2bdCaQKQyQzIMDLEgJUvL5sY+d58ZG2cmZ5p7zg3OD87Lvefs/V97rb3WXtuYgoKCgoKCgv8f63cO3gBVtxYpfhJJBoBl1LQ6HTv2XZOKBpJ3kOQrZBlD1vrFT2dVVphWod0OXxmRW43kNiPJy0BSA5Lzk0UDyxn/n3/Hv+u/MaZ+RW7C19vabdDvyuOiWX6bLBpZ/vBe8N4Adr1etLX1BfmKZteDLE8Dy0fI+tOlK60XUtFJKFXd2nY7vKR1NiPpj5eudPKcaBjljXM9XbvcsszFllge8EKQ9Bj0y6NI8Q4gfQ9Zv5tKdGIMyYdIwqWqwrpdgzeZvCjbL68Cju8D1seB9NQ0q1xH0t+RZAhJn48o3phrRrG2vqBE8V0+KwDrq8h6AFnPTSv+nxt0DEk+iKh2Z+bCu61biSwPAskLQPoJkpyeQeyJJPWxHkeWo8C6LqrIcmSHyPIGkJwd9wzr9sxSY2dVVkwZ1yzfI6lOxLmcBXI7fYjNNB7s1puR9K2JwiXvlreNLM3EGGD5HEk/BlILFJc67Ke3dFVGbkfSw0HM0Ubhmc2YrmfCszKYmTEX4w3x4kOIaKcdudHMgaRS+1BseHVfW+/oIpMV5W0jS4Fkf5j8wIanatf9l/HQ6h1pLQHWN01WAMnbYdJv5+qJyWCldi+y/hrCrM80m4jijenBbLZ74t8A0k3By+eA4ntMs4gqsjwtdNAvDzdjDiB9Jey7w007RyHrnsYkMtCUCbwhW/cuBtZDIXSfm/cJIoo3BLf/0rN76FbTRMIx5wKS/tlJ7u55G7itd3QRkBwJhmw3GQCsL6apfd4Gxao8EVz9dVZ53qf0NCWXKH5o3jYgkPzlj+YmQ7BfH0mPQt129Oq5jNFuh5cgabdvk5MfOqqyKuu+15+wkfSzcI57di5jIEtfSFBDJk+62LX5je8vGXzbYGaZAZH0h4YhbrPJG2R5PVR8Nx4ilwGwPhO++6ZcHlho8sb36hMrqy9dzjeRlTXJDQvLmO+HTKsAFXd/eocF7Hpnetf3++PlguQ102ogy5a0VfYN3FTJxxdrJP0ivHew3Q5fa1oRZOnzpSAtlhFL5MUm58CqPoYkJ0OWO+Lvykwrg8ndwbR3Yd6IvbleJ80GsPuvj1jIZzIk+dnflwHr+74Nz1tbQUFBQUFBgcmAvwHhcu0ZktFhGQAAAABJRU5ErkJggg=="
+              alt="tangent"
+            />
+            <p>Mathematics</p>
+          </li>
+          <li>
+            <img
+              src="data:image/png;base64,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"
+              alt="physics--v3"
+            />
+            <p>Physics</p>
+          </li>
+          <li>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEj0lEQVR4nOVZzYscRRSvlWAUo7cc/ET8AvELIQdh1bnodtXO4i0nRQQFveQgJkpmXtkQjZqDHwc/0H8g6BIvxhUT48x7PW6Cx6AQEYMHYxASSLIR15A48qpf7W5me2a7p7t3pvUHBbu9Va/er95HvVer1DpAh62bjMVZbfEcD2NpXx3ad6oqQTMJwNPGUveyAXi63pi/UVUFxuIsK64tfsGK8zBA++Nv9KmqCnTsSt2Vpz/VxJvFMmdUVWDErdjFEoicUlWBsbg3jgnaz2TiwKcvYyK4V40LNNCBVYGceWA0ah4qP4l4jA0RNaL1heE/R8RU37Uwyk0EiNS4wGQ82bGxxP+GiF6j4q0EEZ2i4q0EEZOi4q0EEZ2i4q0EEQN4dkDFWyEilvYNqHhne+ePDQKLgcTEr/y7Ceku7jWSgn0qbN3Bc3guf+O1ahxQC1tXGYvHRNmX/XeODw5s52bO1XDWk2DwXLHQMZYxMgIexuLrzhqAP+ltcxtVSmwNf7jSAP4Yr6XX1Cihof2gsXjBWPxnuomPZl3Pa3gty2BZahTg09eWjop7fDysHF4r98vRLBYtDAboTYmL40/s6Fw7rJzHX/r6GgP0s5B5Q60ndCN6SFu6qAEvaUu1vPKMpcklec3oYbVuWWopSPHtouQai+/4LLb1xfmrVdnQlt4rqisc0Gi9WyoJzjJs/rKJaMBLw2TB1C7Fd4VstKe8lI57/L1UykXJGaXUDfw+2+Y2+hjky7ZQ4VMQPRBfWslZxUD7Pg04pwH/5sEFYgDRPcPuF9j2I7EL4wUd0v2qCIRh9woD9L3k+fcTSUj/0VMgns1DxgB+IB5wRKnuRG4iAeAzUtn+lnTxsSWkXjrARSEPY/GgL+OH3VeHR64zgCdiOdHTuUjUwtYmY+l3p+ir+OTqGd0JY2nR/b3Zud1/jck4In/lOU0N9JRY9wTrMjQRDbhbXOq7ZIWWiaws0fm1pB8RAzSjLR0yls4boAX+ObBYT9agO2GA5sXFdg9HYidt1oB/uqBrdLb0m7ei8zvIBBwJwG/840NSyZ98dySX8qbR2eKSDOuykzZnJ2Jpl5j180HzOKB9j94zzkxD++4lhYBm5Puitrg9aOD1bgDu8FYN+liGdRDP2JU9NpbfpSbXmh+Tcc89i+xObImVJNzBAH0rVtq+SlHpFrWlQ4lELE36Vpmr5dREjMUXxF0Oq4LgUzRbofdvj4WdG4TkuQE6HXbrm/h8lk2/kkz1bA7diyUC+JwE/Vz6TYFO8qKZMLolh+6Xy4wzVZdjYvV+0SuDXIsRhK1bJSmcVGnhgy9X7u4BB7IPdo4JtgIPJiFlTd9gX6rBZH0WIsfdogFpdxhwis2afj3qYeteca1fVFpooI8kS3ymCgafunMzoIW1L8RlsC6SgD5UacHlhrt55YWkSBfLilrY2qQBPxHLna+H0W2ZBLgLjE8tFnCKe+rpJml+QayFrQ0lKr6B9+C9pI+Pn16BFtJYrm8foi1h6T36Wq2vJSykL+HnH2PxLfcfXMA/+OmmRKUv8h78n15+O+O90yj5L51s6qT96zdzAAAAAElFTkSuQmCC"
+              alt="test-tube"
+            />
+            <p>Chemistry</p>
+          </li>
+          <li>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAElUlEQVR4nO2bTYgcRRSAe6Mx/hBQMf6igoLgRYQ9ePCQgyZdNTO7AXXxYsRoiCCIzq6L2Wy9qSGnKOpBFFklImgEoxcFhWhg5r2eXYgsUULEgxsT8GBE/LkIYtSWN23PvO7M9I6ys9PT0w8Khqnqrnpf1Xv16qcdJybbZo5cVgDcoYGmlfGezUaismvqkyW7fKnTXfwx1+CsBvpVA/lZTMrQL9rUZ1jXiOrW+hu0wXcH3cB1AwF0KALBDXpeFMIVDbigAQ9kJLEuKzEQ0y2bl8NeAb2hnvxkk5MxYZ004EFpDiX2CewcWlQMfZNF5UNh3ZTBU0LfkqMAnxFUXnMyLoE5CDPQgFVh+9W4cyxUaGc4nfBv/q/X/DTKefrqBADaeA/HPSgr2Wv+0AMoVGhnh7n0oV7zhx6Atf4GViicTvh33ASS8oceQBYlBwA5gGoSgM8Gv3Lrb2IdEwDQiCXMATgSgDLYSMHKra8p0LHrCMCRd4JVJ+OSA4AcQDUHADkAPwcAOQA/dQB0hXYpQ3ZytrF55AAUguO4MCJ9buQAaKCPWwCA9o8UgIm5o9doQ+fCdhRM/faRAuBGj+aO9bOuVAJQQCfE8H9i6AFooLv5MJIVu9c2rk8qWwRvXPT+79vt0pVhXmF+8WYN9K0CPKuA7hkKAAq8CWXwt7ZH9x5dpUEvt8vSB5F3VfAxCUcZeiDVAFyDj0hnpg195+7D67qVn7InL1KGfmwPf29C5qs52iIPMxXQn+48Pp5KANrUn9KAf4u5/JSab9ya9Ixr6ve1YeEP43uWN8bLFGztWmXwi9hW1oEUAfDHNNDzsoEKcHmbXbx69cbQh6Lul7qV22Frl2tDFK2DXvk/p1BrCmB8z/JGbeidSO8YPNpLKMvDWwP+0Zr7bePOpPJT5aVLosCCqy6dRs26AdBA0zHlD/d6wSIwmVa9X/byzFZbu1AbeqvjVZeBADD1mViPvMeOrbeG0HHh/cu9PMNXWmTI/F+e7ZsJKKBDsR45wveOkp5Tlu4QM8U5DoVXq6u417tCAS2mygQC8ccU0AtRU6DPS7Z2ldNFlMEXhdl85KwiPBOwmaTOCUoJzt0i/uCr4r6lGzrZsTL0vajzfidBita7hS9vpXgabAsHKRysRGKBOdoiijh8M0tA+inJaW6fxxs5PhiKQCgUDlc5bG29s0K7Yg14XwB41UkQbXD3UIXCofDChRcw2tDpkvVuCv/nhY6EUwC6y0kQHgEK8AyHy0OzGAolcFDRS8m81BWO8munJ/HHpqYOX+BkYT9AAx0T4fLeftaVOgDa0m3COf7Fw7tfdaUSgALaL6K3T50ByeBGAIgVYwUf7Fc9qQUwOdvY3KzL4O7zvthYR0nlpuh6Sg4AcgDVHADkAPw2ACN3dXDBybgog69HdpMUeBMCwEqWP5raamsX80lTqK8LWGzuszW/qGxDOJhFCKy8MvimWIv8zDvNnTc3m6cxuDDom91rl5rDvtXz/wJ4Or6vF9/czHDCtztEoz6f8ExHzSFbiYd90PMJoXiJfULzhJfKg77ZvXY3xKnMe5EtmxfyD8j7HnQ/2PnJAAAAAElFTkSuQmCC"
+              alt="code--v2"
+            />
+            <p>Computer sciences</p>
+          </li>
+          <li>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEX0lEQVR4nO2ZaYhcRRCAX+J9CyqK4oGCxB/+EAVFf6ySTV717MYDXPCIeGEENUiMIdl9VdOKmKDigQf+0H8KatQfioq6wXlVb7LGuIpgNB4xGAQxiivKxiibzUi9nXEnwyYz773uTRa2oP/19VVVd1dXBcGs+JUrV1SPMSSfAMl6a2tzg5kLwYOGpKYtJA6DmSZA0mVQNjcg0oa8NpgJ0muHjwSUaw3yuj0A6g2Q/4V+OSk4EAWi6jmAyW2A8gYg75gKwOxhlfje4ECQ0FbOMmW51RC/ZFB+artxagWRof3sLvIiIP+QeePU2nj3wohPnzaAMEouN8SvGJLR4puX1naf5+3X5gDKdYb4Cw+br00eevnIG4IhuUwfLp8Apun26rKVo50CdNnKwYb4AUAenw4IU28hcY8ziJKtnGKIk+kEMJOH/gknEIv6151siDftHwhxcw132+qphvgbb2eA+C+DsrFNv39g6XuH5Ya4cMnwIaoNn9oGSq7RtYD40332HahelBvEoDzmF0K+03B9wfIPjgLikX31LZXlplwQpUhAX1bPIHelCiO+p21f5IdzuRQgf+sTwiBvV0tYW5trUL7vAPq1zCCdaKg4yERkCyiLOxvDSWYQIPnaq0shb9NbKL1MiLd0CLIlE0SJ5GLf1giRb5lQWLIkgyv+ngnEIPf7dSnZqOcC7IZjDcnPGay4IxsI8eveXIpkF2B8Qd19n8o6NshokdifRfjpiTXi8w3KWDYQ/jsjiJ+XXH+MGo739a09KM8aQDyS1SJve4AY15RP3RrLc82DsjmrRdY4twjKk+ncVs5VF8k5z7s5QhOH1iAebnozPs5vVXkm8y8QiH9x41LyR49Nzk6tQfJowbmWZQKpLzpQHIR3G5SrdT7AuFQ0AC1RfEWu/JQh2VrsXDDpXKVo/ZmA8ltBxYz22U2HZgZJtUgyXx+hfBDysqaL9Lp1ki5CeScXxCQM35/DpZIuWzlcQQzJm8VdVGom4rsLgaQwKA9lWPTzq2zl+LpFVzuBIBltzFkcRqPUNiGFfsQ025L2j2SpI4gaoDzvBOJ/mIHkEkD5cmof5q8026L96tl3N19klLESxucFrkUftZAYDfKfTZbYMH/V4AkpBMY35L4gaAprkDwb+JTulYPHpd9h5LjXJmc03M9pKhV5e0NB3mTi9ZfV6cb17CCTy4wLII+HUdLtFaJnYOg0gyJ1H94JZb7dID/nOD5b5RUirUYR/1rX2rZG9i99vfNHtbWWA77GG4BuuKX6+lavrZzY3CeM+M6CB3tXiLzC+eY1vAjLcj2gfNi04FagZNHexgAmK/OcFSD+0VC8oNCGocw3aw7WoLwPJC9ood6gfKaVoqaFRgDF9i0bOqLdfBqldlqCSPO9yA86qUgB8iN78dUxrd/ptaqpzWyz1ubo1xaQHwfkqpam07o6ys7UqiivQplvdF5SW2gr8zS9b8pyhxY4SxFfqqG800VmZVaCGSP/ASQwippBfu6CAAAAAElFTkSuQmCC"
+              alt="leaf"
+            />
+            <p>Biology</p>
+          </li>
+        </ul>
+        <a href="#" class="view-all-subjects">View all subjects</a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3>READY WHEN YOU ARE</h3>
+        <h1 class="lesson-text">Your first lesson is free. No card needed.</h1>
+      </section>
+      <section class="reviews">
+        <div class="review-btns-wrapper">
+          <div class="left-btn">◀</div>
+          <div class="reviews-wrapper">
+            <div class="review">
+              <div class="review-img-wrapper">
+                <img src="" />
+              </div>
+              <div class="review-text">
+                <p>
+                  "I love Lumina because it feels designed just for me. It
+                  ensures that i understand a topic before moving to the next.”
+                </p>
+              </div>
+            </div>
+            <div class="review">
+              <div class="review-img-wrapper">
+                <img src="" />
+              </div>
+              <div class="review-text">
+                <p>
+                  "I love Lumina because it feels designed just for me. It
+                  ensures that i understand a topic before moving to the next.”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="right-btn">▶</div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-items">
+          <a href="#" class="logo">
+            <span class="logo-icon">L</span>
+            <span class="logo-text">Lumina</span>
+          </a>
+        </div>
+        <p>
+          Real-time AI teaching for mathematics, physics, chemistry, computer
+          science and biology
+        </p>
+        <p>2026 Lumina Education Technologies. All rights reserved.</p>
+      </footer>
     </main>
   </body>
 </html>
