@@ -1,16 +1,16 @@
 * {
     margin: 0;
-    padding: 10px;
     box-sizing: border-box;
 }
 
-
 body {
+    margin: 0;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(5, 12, 28);
     color: rgb(153, 193, 218);
-    padding: 0px;
 }
+
 
 /* NAVIGATION */
 
@@ -86,6 +86,7 @@ header {
     align-items: center;
     text-align: center;
     justify-content: space-between;
+    margin-top: 3rem;
 }
 .left-hero{
     display: flex;
@@ -204,12 +205,17 @@ header {
     border: 0.5px solid rgb(42, 128, 206);
     border-radius: 15px;
     width: 100%;
+    padding: 30px;
+    gap: 3rem;
+    
 }
 .how-it-works-items{
     display: flex;
     justify-content: space-around;
     background-color: rgb(16, 29, 50);
     border-radius: 15px;
+    padding: 20px;               
+    gap: 1rem; 
 }
 .how-it-works-items .how-it-works-circle{
     background-color: rgba(16, 29, 50, 0.35);
@@ -221,24 +227,32 @@ header {
 .red-text{
     color: red;
     font-weight: bold;
+    font-size: 1.3rem;
 }
 .blue-text{
     color: rgba(0, 39, 211, 0.788);
     font-weight: bold;
+    font-size: 1.3rem;
 }
 .how-it-works-inner-wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 20px 40px; 
 }
 .how-it-work-left ul, .how-it-work-right ul{
     list-style: none;
     text-align: left;
+    padding: 0;
+}
+.how-it-work-left ul li,
+.how-it-work-right ul li {
+    margin-bottom: 10px;        
 }
 span{
     padding: 0%;
 }
 .subjects{
-    margin-top: 4rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,9 +264,8 @@ span{
     height: 110px;
     width: 200px;
     padding: 5px;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
-    gap: 3rem;
 }
 .subject-cards li{
     border: 0.5px solid rgb(42, 128, 206);
@@ -286,6 +299,10 @@ span{
 }
 
 /* REVIEWS */
+.reviews{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
 .review-btns-wrapper {
     display: flex;
     align-items: center;
@@ -342,7 +359,7 @@ span{
     justify-content: center;
 }
 footer{
-    margin-top: 20%;
+    margin-top: 5rem;
 }
 footer p{
     font-size: small;
