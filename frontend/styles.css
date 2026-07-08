@@ -9,13 +9,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(5, 12, 28);
     color: rgb(153, 193, 218);
+    padding: 0px;
 }
 
 /* NAVIGATION */
 
 header {
     width: 100%;
-    padding: 20px;
 }
 
 .navbar {
@@ -80,15 +80,25 @@ header {
 /* HERO SECTION */
 .hero {
     min-height: 85vh;
-
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
-    padding: 0 10%;
+    justify-content: space-between;
+}
+.left-hero{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.right-hero{
+    width: 90%;
+}
+.hero img{
+    width: 100%;
+    height: 540px;
 }
 
 .hero-tag {
@@ -98,7 +108,7 @@ header {
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.2;
     max-width: 900px;
     margin-bottom: 30px;
@@ -121,6 +131,9 @@ header {
     font-weight: bold;
     transition: .3s;
     margin-bottom: 3rem;
+    text-align: center;
+    display: flex;
+    align-content: center;
 }
 
 .hero-btn:hover {
@@ -398,8 +411,8 @@ footer p{
     }
 }
 
-.hero-btn,
-.sign-in-btn{
+.hero-btn
+{
     animation: pulseGlow 2.5s infinite;
 }
 
